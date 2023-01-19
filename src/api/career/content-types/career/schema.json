@@ -1,0 +1,73 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers",
+  "info": {
+    "singularName": "career",
+    "pluralName": "careers",
+    "displayName": "career",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "displayName": "career_banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.career-banner"
+    },
+    "culture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.culture"
+    },
+    "Perks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.perks"
+    },
+    "vacancies": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.vacancies"
+    },
+    "openings": {
+      "type": "component",
+      "repeatable": true,
+      "component": "container.openings"
+    },
+    "article_heading": {
+      "type": "string"
+    },
+    "aticles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.blog-card"
+    },
+    "founder": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.founder"
+    },
+    "profile": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.profile-card"
+    },
+    "leadership_heading": {
+      "type": "string"
+    },
+    "leaders_profile": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.profile-card"
+    },
+    "carousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.carousel-last"
+    }
+  }
+}

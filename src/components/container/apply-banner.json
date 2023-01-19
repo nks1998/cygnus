@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_container_apply_banners",
+  "info": {
+    "displayName": "apply_banner",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subheading": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "apply_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.links"
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

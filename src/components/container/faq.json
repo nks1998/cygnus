@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_container_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "Question_answer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading-description",
+      "required": true
+    }
+  }
+}

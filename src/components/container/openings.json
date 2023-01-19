@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_container_openings",
+  "info": {
+    "displayName": "openings",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "position": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.editor"
+    },
+    "conclusion": {
+      "type": "text"
+    }
+  }
+}

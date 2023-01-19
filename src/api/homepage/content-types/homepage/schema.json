@@ -1,0 +1,101 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.homepage-banner",
+      "required": true
+    },
+    "For_everyone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.for-everyone",
+      "required": true
+    },
+    "Facts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading-description",
+      "required": false
+    },
+    "Hygiene": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.hygiene",
+      "required": true
+    },
+    "Pricing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.pricing"
+    },
+    "Pricing_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.pricing-card",
+      "required": true
+    },
+    "Chefcart_works": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.chefcart-works",
+      "required": true
+    },
+    "testimonial_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.testimonial-section",
+      "required": true
+    },
+    "hiring": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.hiring",
+      "required": true
+    },
+    "chefs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.chefs",
+      "required": true
+    },
+    "chef_carousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.chef",
+      "required": true
+    },
+    "join_as_chef": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.join-as-chef"
+    },
+    "blog_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.blog-section"
+    },
+    "banner_last": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.ending-banner"
+    },
+    "food_display": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.food-display"
+    }
+  }
+}

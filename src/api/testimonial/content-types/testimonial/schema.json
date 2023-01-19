@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonials",
+  "info": {
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "Testimonial"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner2",
+      "required": true
+    },
+    "section_heading": {
+      "type": "string",
+      "required": true
+    },
+    "testimonials_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonials.testimonial-card",
+      "required": true
+    },
+    "video_review": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonials.video-review",
+      "required": true
+    }
+  }
+}

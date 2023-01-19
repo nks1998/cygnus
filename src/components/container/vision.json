@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_container_visions",
+  "info": {
+    "displayName": "vision",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "subheading": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

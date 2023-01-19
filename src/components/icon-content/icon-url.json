@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_icon_content_icon_urls",
+  "info": {
+    "displayName": "icon_url",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

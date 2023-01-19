@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_container_vacancies",
+  "info": {
+    "displayName": "vacancies",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "opening_heading": {
+      "type": "string"
+    },
+    "view_all": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.links"
+    }
+  }
+}

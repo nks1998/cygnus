@@ -1,0 +1,72 @@
+{
+  "kind": "singleType",
+  "collectionName": "investor_relations",
+  "info": {
+    "singularName": "investor-relation",
+    "pluralName": "investor-relations",
+    "displayName": "Investor_relation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner_heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
+    },
+    "banner_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Facts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.our-mission-investor"
+    },
+    "press_heading": {
+      "type": "string"
+    },
+    "news": {
+      "type": "component",
+      "repeatable": true,
+      "component": "container.press-release"
+    },
+    "blog_heading": {
+      "type": "string"
+    },
+    "blogs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.blog-page-card"
+    },
+    "our_investor": {
+      "type": "component",
+      "repeatable": true,
+      "component": "container.investor"
+    },
+    "form_banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.banner-form"
+    },
+    "ending_banner_heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
+    },
+    "last_banner_img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

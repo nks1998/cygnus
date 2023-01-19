@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_container_carousel_lasts",
+  "info": {
+    "displayName": "carousel_last",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "carousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.career-ending-banner"
+    }
+  }
+}

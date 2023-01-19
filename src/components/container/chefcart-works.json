@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_container_chefcart_works",
+  "info": {
+    "displayName": "Chefcart_works",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "brief": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.heading-description",
+      "required": true
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-content.icon-text"
+    },
+    "download_icon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-content.icon-url"
+    }
+  }
+}

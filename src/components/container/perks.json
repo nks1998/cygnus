@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_container_perks",
+  "info": {
+    "displayName": "perks",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "perks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-content.icon-text"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_card_profile_cards",
+  "info": {
+    "displayName": "profile_card",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string"
+    },
+    "social_media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-content.icon-url"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_container_pricings",
+  "info": {
+    "displayName": "pricing",
+    "icon": "bookmark",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "brief": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.heading-description",
+      "required": true
+    }
+  }
+}

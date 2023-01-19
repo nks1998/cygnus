@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_content_headings",
+  "info": {
+    "displayName": "heading",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "string",
+      "default": "white"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_content_heading_descriptions",
+  "info": {
+    "displayName": "heading_description",
+    "icon": "text-width",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_banner_career_ending_banners",
+  "info": {
+    "displayName": "career_ending_banner",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "heading": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    }
+  }
+}

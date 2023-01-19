@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_card_blog_page_cards",
+  "info": {
+    "displayName": "blog_page_card",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "subheading": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "date": {
+      "type": "date"
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "Trending",
+        "Food Recipe",
+        "Blogs",
+        "Video",
+        "News"
+      ],
+      "required": false
+    }
+  }
+}

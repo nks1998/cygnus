@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_container_blog_sections",
+  "info": {
+    "displayName": "blog_section",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section_name": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "blog_carousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.blog-card",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

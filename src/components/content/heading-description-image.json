@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_content_heading_description_images",
+  "info": {
+    "displayName": "heading_description_image",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

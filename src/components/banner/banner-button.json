@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_banner_banner_buttons",
+  "info": {
+    "displayName": "banner_button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading",
+      "required": false
+    }
+  }
+}

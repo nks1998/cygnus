@@ -1,0 +1,100 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "badge": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "heading_colored": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "image_front": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_back": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "vision": {
+      "type": "component",
+      "repeatable": true,
+      "component": "container.vision"
+    },
+    "facts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading-description"
+    },
+    "founder": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.founder"
+    },
+    "profile": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.profile-card"
+    },
+    "gallery_heading": {
+      "type": "string"
+    },
+    "videos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "form_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "social_heading": {
+      "type": "string",
+      "required": false
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-content.icon-url"
+    }
+  }
+}

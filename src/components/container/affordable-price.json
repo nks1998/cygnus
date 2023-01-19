@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_container_affordable_prices",
+  "info": {
+    "displayName": "affordable_price",
+    "icon": "money-bill-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "factors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-content.icon-text",
+      "required": true
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
+    },
+    "subheading": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

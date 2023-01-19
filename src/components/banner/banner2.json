@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_banner_banner2s",
+  "info": {
+    "displayName": "banner2",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_container_banner_forms",
+  "info": {
+    "displayName": "banner_form",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner_heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
+    },
+    "banner_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "form_heading": {
+      "type": "string"
+    }
+  }
+}

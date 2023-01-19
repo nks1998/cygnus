@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_container_testimonial_sections",
+  "info": {
+    "displayName": "testimonial_section",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "section_heading": {
+      "type": "string",
+      "required": true
+    },
+    "video_review": {
+      "type": "component",
+      "repeatable": false,
+      "component": "testimonials.video-review",
+      "required": true
+    },
+    "review_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonials.testimonial-card",
+      "required": true
+    }
+  }
+}

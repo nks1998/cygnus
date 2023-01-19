@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "join_as_chefs",
+  "info": {
+    "singularName": "join-as-chef",
+    "pluralName": "join-as-chefs",
+    "displayName": "join_as_chef",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner_slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner-button",
+      "required": true
+    },
+    "Metrics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading-description-image",
+      "required": true
+    },
+    "why_us": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.why-us",
+      "required": true
+    },
+    "review": {
+      "type": "component",
+      "repeatable": false,
+      "component": "testimonials.video-review",
+      "required": true
+    },
+    "testimonial_carousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonials.testimonial-card",
+      "required": true
+    },
+    "join_us": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.heading-description",
+      "required": true
+    },
+    "FAQ": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.faq",
+      "required": true
+    }
+  }
+}

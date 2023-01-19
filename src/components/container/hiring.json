@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_container_hirings",
+  "info": {
+    "displayName": "hiring",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading1": {
+      "type": "text"
+    },
+    "subheading2": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "download_icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-content.icon-url"
+    }
+  }
+}

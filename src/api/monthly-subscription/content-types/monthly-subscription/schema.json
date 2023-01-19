@@ -1,0 +1,68 @@
+{
+  "kind": "singleType",
+  "collectionName": "monthly_subscriptions",
+  "info": {
+    "singularName": "monthly-subscription",
+    "pluralName": "monthly-subscriptions",
+    "displayName": "monthly_subscription",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner2",
+      "required": true
+    },
+    "pricing_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.pricing-card",
+      "required": true,
+      "private": true
+    },
+    "factors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.affordable-price",
+      "required": true
+    },
+    "hygiene": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.hygiene",
+      "required": true
+    },
+    "project_feature": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.overview"
+    },
+    "banner_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner-button",
+      "required": true
+    },
+    "banner_3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner-button"
+    },
+    "FAQs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.faq",
+      "required": true
+    },
+    "ending_banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.ending-banner"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_container_our_mission_investors",
+  "info": {
+    "displayName": "our_mission_investor",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "subheading": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
+    },
+    "Link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.links"
+    },
+    "Facts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading-description"
+    }
+  }
+}

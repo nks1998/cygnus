@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "arrow-alt-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "icon-content.logo",
+      "required": true
+    },
+    "footer_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.links",
+      "required": true
+    },
+    "social_heading": {
+      "type": "string"
+    },
+    "social_icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-content.icon-url"
+    },
+    "get_app_heading": {
+      "type": "string"
+    },
+    "download_icon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-content.icon-url"
+    },
+    "copyright_text": {
+      "type": "string",
+      "required": true
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.links"
+    }
+  }
+}

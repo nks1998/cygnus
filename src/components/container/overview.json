@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_container_overviews",
+  "info": {
+    "displayName": "overview",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "feature_col_heading": {
+      "type": "string",
+      "required": true
+    },
+    "popular_col_heading": {
+      "type": "string",
+      "required": true
+    },
+    "premium_col_heading": {
+      "type": "string",
+      "required": true
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "table.table",
+      "required": true
+    },
+    "popular_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "premium_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

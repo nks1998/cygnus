@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_container_founders",
+  "info": {
+    "displayName": "founder",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
+    }
+  }
+}

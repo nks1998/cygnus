@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_container_contact_stories",
+  "info": {
+    "displayName": "contact_story",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

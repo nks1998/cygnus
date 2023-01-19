@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_container_join_as_chefs",
+  "info": {
+    "displayName": "join_as_chef",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

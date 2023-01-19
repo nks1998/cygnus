@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_testimonials_video_reviews",
+  "info": {
+    "displayName": "video_review",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "review": {
+      "type": "text",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

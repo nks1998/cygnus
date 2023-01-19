@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_container_why_uses",
+  "info": {
+    "displayName": "why_us",
+    "icon": "question-circle"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading-description-image"
+    }
+  }
+}

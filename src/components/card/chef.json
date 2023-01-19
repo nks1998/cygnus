@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_card_chefs",
+  "info": {
+    "displayName": "chef",
+    "icon": "utensils"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "rating": {
+      "type": "decimal",
+      "required": true
+    },
+    "experience": {
+      "type": "string",
+      "required": true
+    },
+    "specialization": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.text",
+      "required": true
+    }
+  }
+}

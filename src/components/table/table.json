@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_table_tables",
+  "info": {
+    "displayName": "table",
+    "icon": "table"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string",
+      "required": true
+    },
+    "Popular": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "Premium": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
