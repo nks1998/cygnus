@@ -105,5 +105,7 @@
       "repeatable": false,
       "component": "container.thank-you-modal"
     }
+    
   }
 }
+

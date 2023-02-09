@@ -29,6 +29,11 @@
       "type": "component",
       "repeatable": false,
       "component": "card.blog-card"
+    },
+    "blog_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-page.blog-page"
     }
   }
 }
