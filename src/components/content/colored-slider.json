@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_colored_sliders",
+  "info": {
+    "displayName": "colored_slider",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "color_code": {
+      "type": "string"
+    }
+  }
+}

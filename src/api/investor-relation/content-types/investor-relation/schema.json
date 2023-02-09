@@ -62,11 +62,17 @@
       "component": "content.heading"
     },
     "last_banner_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "blog_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-page.blog-page"
     }
   }
 }

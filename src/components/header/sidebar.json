@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_header_sidebars",
+  "info": {
+    "displayName": "sidebar",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.links"
+    }
+  }
+}

@@ -2,7 +2,8 @@
   "collectionName": "components_card_chefs",
   "info": {
     "displayName": "chef",
-    "icon": "utensils"
+    "icon": "utensils",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -23,6 +24,15 @@
       "repeatable": true,
       "component": "content.text",
       "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
+

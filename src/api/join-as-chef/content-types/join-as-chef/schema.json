@@ -42,17 +42,24 @@
       "component": "testimonials.testimonial-card",
       "required": true
     },
-    "join_us": {
+    "Apply": {
       "type": "component",
       "repeatable": false,
-      "component": "content.heading-description",
-      "required": true
+      "component": "container.apply-here"
+    },
+    "join_us_heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
+    },
+    "description": {
+      "type": "text"
     },
     "FAQ": {
       "type": "component",
       "repeatable": false,
-      "component": "container.faq",
-      "required": true
+      "component": "container.faq"
     }
   }
 }
+

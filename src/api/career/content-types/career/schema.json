@@ -68,6 +68,14 @@
       "type": "component",
       "repeatable": false,
       "component": "container.carousel-last"
+    },
+    "job_openings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::job-opening.job-opening"
+    },
+    "apply_button_text": {
+      "type": "string"
     }
   }
 }

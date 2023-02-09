@@ -17,11 +17,9 @@
       "required": true
     },
     "heading": {
-      "type": "string",
-      "required": true
-    },
-    "heading_colored": {
-      "type": "string"
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
     },
     "description": {
       "type": "text",
@@ -81,11 +79,12 @@
       ]
     },
     "form_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "social_heading": {
       "type": "string",
@@ -96,5 +95,7 @@
       "repeatable": true,
       "component": "icon-content.icon-url"
     }
+    
   }
 }
+

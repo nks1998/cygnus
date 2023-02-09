@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_container_ending_banners",
+  "collectionName": "components_container_apply_heres",
   "info": {
-    "displayName": "ending_banner",
-    "icon": "audio-description",
+    "displayName": "apply_here",
+    "icon": "archive",
     "description": ""
   },
   "options": {},
@@ -11,8 +11,15 @@
       "type": "string"
     },
     "heading": {
-      "type": "string",
-      "required": true
+      "type": "text"
+    },
+    "apply_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.links"
+    },
+    "link_text": {
+      "type": "string"
     },
     "image": {
       "type": "media",
@@ -29,4 +36,3 @@
     }
   }
 }
-

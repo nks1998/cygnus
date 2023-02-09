@@ -4,19 +4,14 @@
   "info": {
     "singularName": "testimonial",
     "pluralName": "testimonials",
-    "displayName": "Testimonial"
+    "displayName": "Testimonial",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "banner": {
-      "type": "component",
-      "repeatable": false,
-      "component": "banner.banner2",
-      "required": true
-    },
     "section_heading": {
       "type": "string",
       "required": true
@@ -32,6 +27,12 @@
       "repeatable": true,
       "component": "testimonials.video-review",
       "required": true
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.video-banner"
     }
   }
 }
+

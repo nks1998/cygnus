@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_banner_video_banners",
+  "info": {
+    "displayName": "video_banner",
+    "icon": "square"
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "allowedTypes": [
+        "videos",
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}

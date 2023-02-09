@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_openings",
+  "info": {
+    "singularName": "job-opening",
+    "pluralName": "job-openings",
+    "displayName": "job_opening",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Position": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "department": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.editor"
+    },
+    "conclusion": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "regex": "^[a-zA-Z]+(-[a-zA-Z]+)*$"
+    },
+    "subheading": {
+      "type": "string"
+    }
+  }
+}

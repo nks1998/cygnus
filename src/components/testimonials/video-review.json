@@ -2,7 +2,8 @@
   "collectionName": "components_testimonials_video_reviews",
   "info": {
     "displayName": "video_review",
-    "icon": "video"
+    "icon": "video",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,12 +16,13 @@
       "required": true
     },
     "video": {
-      "allowedTypes": [
-        "videos"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
     }
   }
 }
+
