@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_singles",
+  "info": {
+    "singularName": "blog-single",
+    "pluralName": "blog-singles",
+    "displayName": "blog_single",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "article_carousel_heading": {
+      "type": "string"
+    },
+    "blog_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-page.blog-page"
+    },
+    "share_heading": {
+      "type": "string"
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-content.icon-url"
+    },
+    "like_button": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

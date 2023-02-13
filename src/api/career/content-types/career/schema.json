@@ -33,17 +33,12 @@
       "repeatable": false,
       "component": "container.vacancies"
     },
-    "openings": {
-      "type": "component",
-      "repeatable": true,
-      "component": "container.openings"
-    },
     "article_heading": {
       "type": "string"
     },
     "aticles": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "card.blog-card"
     },
     "founder": {

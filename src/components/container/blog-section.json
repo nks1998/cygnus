@@ -16,7 +16,7 @@
     },
     "blog_carousel": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "card.blog-card",
       "required": true
     },

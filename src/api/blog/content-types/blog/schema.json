@@ -15,27 +15,20 @@
     "banner": {
       "type": "component",
       "repeatable": false,
-      "component": "banner.homepage-banner"
-    },
-    "cards": {
-      "type": "component",
-      "repeatable": true,
-      "component": "card.blog-page-card",
-      "required": true
-    },
-    "heading": {
-      "type": "string",
-      "required": true
-    },
-    "carousel": {
-      "type": "component",
-      "repeatable": true,
-      "component": "card.blog-card"
+      "component": "banner.blog-banner"
     },
     "blog_pages": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::blog-page.blog-page"
+    },
+    "articles_heading": {
+      "type": "string"
+    },
+    "article_carousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card.blog-card"
     }
   }
 }

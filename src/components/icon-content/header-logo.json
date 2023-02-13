@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_icon_content_header_logos",
+  "info": {
+    "displayName": "header_logo"
+  },
+  "options": {},
+  "attributes": {
+    "white_logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "black_logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "yellow_logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

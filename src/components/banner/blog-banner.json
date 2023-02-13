@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_banner_blog_banners",
+  "info": {
+    "displayName": "blog_banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.colored-slider"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
+    },
+    "button": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
