@@ -28,17 +28,6 @@
       "type": "date",
       "required": true
     },
-    "category": {
-      "type": "enumeration",
-      "enum": [
-        "Trending",
-        "Food Recipe",
-        "Blogs",
-        "Video",
-        "News"
-      ],
-      "required": true
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -61,6 +50,15 @@
       "unique": true,
       "required": true,
       "regex": "^[a-zA-Z]+(-[a-zA-Z]+)*$"
+    },
+    "time_to_read": {
+      "type": "string",
+      "required": true
+    },
+    "blogs_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blogs-category.blogs-category"
     }
   }
 }
