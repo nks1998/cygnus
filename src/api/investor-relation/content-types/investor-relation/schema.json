@@ -73,6 +73,26 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::blog-page.blog-page"
+    },
+    "contact_form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.form"
+    },
+    "thank_you": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.thank-you-modal"
+    },
+    "mobile_banner_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

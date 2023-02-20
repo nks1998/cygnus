@@ -59,7 +59,16 @@
       "type": "component",
       "repeatable": false,
       "component": "container.faq"
+    },
+    "sign_up": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.form"
+    },
+    "thank_you_modal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.thank-you-modal"
     }
   }
 }
-

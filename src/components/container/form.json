@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_container_forms",
+  "info": {
+    "displayName": "form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "inputs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.input"
+    },
+    "submit_button": {
+      "type": "string"
+    },
+    "terms_condition_check": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "career_singles",
+  "info": {
+    "singularName": "career-single",
+    "pluralName": "career-singles",
+    "displayName": "career-single",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "apply_button": {
+      "type": "string"
+    },
+    "join_form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.form"
+    },
+    "thank_you": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.thank-you-modal"
+    }
+  }
+}
