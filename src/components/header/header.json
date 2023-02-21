@@ -7,6 +7,12 @@
   },
   "options": {},
   "attributes": {
+    "logo": {
+      "displayName": "logo",
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-content.logo"
+    },
     "nav_links": {
       "type": "component",
       "repeatable": true,
@@ -18,27 +24,14 @@
       "repeatable": false,
       "component": "button.button"
     },
-    "logo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "icon-content.header-logo",
-      "required": true
-    },
-    "white_burger_icon": {
-      "allowedTypes": [
-        "images"
-      ],
+    "hamburger_icon": {
       "type": "media",
       "multiple": false,
-      "required": true
-    },
-    "black_burger_icon": {
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     }
   }
 }
+

@@ -7,10 +7,24 @@
   },
   "options": {},
   "attributes": {
-    "blog_pages": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::blog-page.blog-page"
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "read_time": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
+

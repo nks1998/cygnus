@@ -20,18 +20,24 @@
       "component": "button.button",
       "required": true
     },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
     "subheading": {
       "type": "component",
       "repeatable": true,
       "component": "content.heading"
     },
-    "banner_image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.colored-slider"
     }
   }
 }
+
