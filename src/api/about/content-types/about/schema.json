@@ -104,8 +104,11 @@
       "type": "component",
       "repeatable": false,
       "component": "container.thank-you-modal"
+    },
+    "Chefcart_works": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.chefcart-works"
     }
-    
   }
 }
-

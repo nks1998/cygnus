@@ -85,14 +85,20 @@
       "component": "container.thank-you-modal"
     },
     "mobile_banner_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Chefcart_works": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.chefcart-works"
     }
   }
 }

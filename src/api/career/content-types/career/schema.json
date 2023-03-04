@@ -71,6 +71,16 @@
     },
     "apply_button_text": {
       "type": "string"
+    },
+    "Chefcart_works": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.chefcart-works"
+    },
+    "enable_page": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }

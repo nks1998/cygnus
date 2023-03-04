@@ -29,11 +29,33 @@
       "component": "icon-content.icon-url"
     },
     "like_button": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
+      ]
+    },
+    "facebook": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "twitter": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "linkedin": {
+      "allowedTypes": [
+        "images"
       ],
       "type": "media",
       "multiple": false

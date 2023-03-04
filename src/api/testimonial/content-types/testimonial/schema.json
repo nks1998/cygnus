@@ -32,7 +32,11 @@
       "type": "component",
       "repeatable": false,
       "component": "banner.video-banner"
+    },
+    "Chefcart_works": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.chefcart-works"
     }
   }
 }
-

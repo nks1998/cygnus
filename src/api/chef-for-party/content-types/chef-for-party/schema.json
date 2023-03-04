@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "monthly_subscriptions",
+  "collectionName": "chef_for_parties",
   "info": {
-    "singularName": "monthly-subscription",
-    "pluralName": "monthly-subscriptions",
-    "displayName": "monthly_subscription",
+    "singularName": "chef-for-party",
+    "pluralName": "chef-for-parties",
+    "displayName": "chef-for-party",
     "description": ""
   },
   "options": {
@@ -15,26 +15,22 @@
     "banner": {
       "type": "component",
       "repeatable": false,
-      "component": "banner.banner2",
-      "required": true
+      "component": "banner.banner-button"
     },
     "pricing_cards": {
       "type": "component",
       "repeatable": true,
-      "component": "card.pricing-card",
-      "required": true
+      "component": "card.pricing-card"
     },
     "factors": {
       "type": "component",
       "repeatable": false,
-      "component": "container.affordable-price",
-      "required": true
+      "component": "container.affordable-price"
     },
     "hygiene": {
       "type": "component",
       "repeatable": false,
-      "component": "container.hygiene",
-      "required": true
+      "component": "container.hygiene"
     },
     "project_feature": {
       "type": "component",
@@ -44,8 +40,7 @@
     "banner_2": {
       "type": "component",
       "repeatable": false,
-      "component": "banner.banner-button",
-      "required": true
+      "component": "banner.banner-button"
     },
     "banner_3": {
       "type": "component",
@@ -55,8 +50,7 @@
     "FAQs": {
       "type": "component",
       "repeatable": false,
-      "component": "container.faq",
-      "required": true
+      "component": "container.faq"
     },
     "ending_banner": {
       "type": "component",
@@ -77,6 +71,9 @@
       "type": "component",
       "repeatable": false,
       "component": "container.form"
+    },
+    "banner_CTA": {
+      "type": "string"
     }
   }
 }
