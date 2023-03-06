@@ -81,6 +81,11 @@
       "type": "boolean",
       "default": true,
       "required": true
+    },
+    "no_open_position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.heading-description"
     }
   }
 }

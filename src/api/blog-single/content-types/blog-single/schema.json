@@ -23,11 +23,6 @@
     "share_heading": {
       "type": "string"
     },
-    "icons": {
-      "type": "component",
-      "repeatable": true,
-      "component": "icon-content.icon-url"
-    },
     "like_button": {
       "type": "media",
       "multiple": false,
@@ -40,25 +35,28 @@
       ]
     },
     "facebook": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "twitter": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "linkedin": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
