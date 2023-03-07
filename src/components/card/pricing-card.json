@@ -28,7 +28,7 @@
     "button": {
       "type": "component",
       "repeatable": false,
-      "component": "button.button"
+      "component": "links.links"
     }
   }
 }
