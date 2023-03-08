@@ -14,7 +14,7 @@ aws ecr get-login-password --region ap-south-1 | docker login --username AWS --p
 docker push 754405019766.dkr.ecr.ap-south-1.amazonaws.com/cygnus:$releaseversion
 
 # Get current task definition json
-#TASK_DEFINITION=$(aws ecs describe-task-definition --task-definition "ck-backend-worker-prod-amd64" --region "ap-south-1")
+#       TASK_DEFINITION=$(aws ecs describe-task-definition --task-definition "ck-backend-worker-prod-amd64" --region "ap-south-1")
 
 # Update the new docker version that you updated above to task definition json. Delete fields not required during upload
 #NEW_TASK_DEFINTIION=$(echo $TASK_DEFINITION | jq --arg IMAGE "754405019766.dkr.ecr.ap-south-1.amazonaws.com/ck-backend-server:$releaseversion" '.taskDefinition | .containerDefinitions[0].image = $IMAGE | del(.taskDefinitionArn) | del(.revision) | del(.status) | del(.requiresAttributes) | del(.compatibilities) |  del(.registeredAt) | del(.registeredBy)')
