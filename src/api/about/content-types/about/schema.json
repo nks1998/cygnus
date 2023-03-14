@@ -25,11 +25,6 @@
       "type": "text",
       "required": false
     },
-    "button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "button.button"
-    },
     "image_front": {
       "type": "media",
       "multiple": false,
@@ -109,6 +104,11 @@
       "type": "component",
       "repeatable": false,
       "component": "container.chefcart-works"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.links"
     }
   }
 }

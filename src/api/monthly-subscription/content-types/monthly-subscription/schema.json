@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "banner": {
-      "type": "component",
-      "repeatable": false,
-      "component": "banner.banner2",
-      "required": true
-    },
     "pricing_cards": {
       "type": "component",
       "repeatable": true,
@@ -77,6 +71,11 @@
       "type": "component",
       "repeatable": false,
       "component": "container.form"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner-button"
     }
   }
 }

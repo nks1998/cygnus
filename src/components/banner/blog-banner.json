@@ -20,15 +20,28 @@
       "repeatable": true,
       "component": "content.heading"
     },
-    "button": {
-      "type": "string"
-    },
     "badge": {
       "type": "string"
     },
     "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "videos"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.links"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
       ],
       "type": "media",
       "multiple": false
