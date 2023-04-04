@@ -59,6 +59,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::blogs-category.blogs-category"
+    },
+    "Editor_details": {
+      "displayName": "editor",
+      "type": "component",
+      "repeatable": false,
+      "component": "container.editor"
     }
   }
 }
