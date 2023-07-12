@@ -12,6 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "NoticeStrip": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.notice-strip"
+    },
     "banner": {
       "type": "component",
       "repeatable": false,

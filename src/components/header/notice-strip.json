@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_header_notice_strips",
+  "info": {
+    "displayName": "NoticeStrip"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
