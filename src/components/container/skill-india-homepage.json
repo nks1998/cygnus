@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_container_skill_india_homepages",
+  "info": {
+    "displayName": "Skill_India_Homepage"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "icons": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

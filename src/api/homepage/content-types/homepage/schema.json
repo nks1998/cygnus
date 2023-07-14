@@ -111,6 +111,11 @@
       "type": "component",
       "repeatable": false,
       "component": "container.thank-you-modal"
+    },
+    "skill_India": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.skill-india-homepage"
     }
   }
 }

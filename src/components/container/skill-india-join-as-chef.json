@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_container_skill_india_join_as_chefs",
+  "info": {
+    "displayName": "Skill_India_Join_as_chef"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-content.icon-text"
+    }
+  }
+}
